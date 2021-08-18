@@ -6,3 +6,5 @@ yarn.lock
 yarn-error.log
 dist
 build
+.serverless
+.webpack
