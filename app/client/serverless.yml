@@ -4,7 +4,7 @@ frameworkVersion: '2'
 provider:
   name: aws
   runtime: nodejs14.x
-  # stage: dev
+  stage: dev
   region: eu-central-1
   # profile: personalAccount
 
@@ -14,7 +14,7 @@ plugins:
 
 custom:
   client:
-    bucketName: webmak-auto-bucket
+    bucketName: webmak-bucket
     distributionFolder: dist/app
     # indexDocument: index.html
     # manageResources: false
